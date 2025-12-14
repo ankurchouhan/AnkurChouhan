@@ -10,6 +10,36 @@
 ---
 ## ☁️ Cloud & Solutions Architect Design — Serverless + Compute Engine Architecture
 
+### 📊 Final Cost Comparison (Monthly)
+
+| Users | GCP Managed Infrastructure | Hyperscale Custom Infrastructure |
+|------:|----------------------------|----------------------------------|
+| **1 Million Users** | ~$1.5M / month | ~$300K / month |
+| **1 Billion Users** | ~$500M / month | ~$30M – $80M / month |
+
+---
+
+### 🧠 What This Comparison Shows
+
+- **GCP Managed Infrastructure**
+  - Fast to build and operate
+  - Ideal up to **tens of millions of users**
+  - Cost dominated by **bandwidth (CDN + egress)**
+
+- **Hyperscale Custom Infrastructure (Netflix / Apple style)**
+  - Requires massive engineering investment
+  - Uses **private CDN, ISP peering, custom hardware**
+  - Achieves **10–15× lower bandwidth cost** at scale
+
+---
+
+### 🔑 Architectural Insight
+
+> At small to mid scale, **managed cloud wins on speed and simplicity**.  
+> At massive scale, **owning the network wins on cost**.
+
+This is why companies like **Netflix and Apple** gradually move away from fully managed cloud services as user count approaches **hundreds of millions to billions**.
+
 Explore the complete end-to-end implementation on GitHub:  
 🔗 **[Infra · Backend · Data · ML Architecture](https://github.com/ankurchouhan/Infra-backend-data-ML-Architecture)**
 
