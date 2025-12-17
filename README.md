@@ -3,7 +3,7 @@
 <h1 align="center" style="font-size:1.8rem;">👋 Hi, I'm <a href="https://github.com/ankurchouhan">Ankur Chouhan</a></h1>
 
 <p align="center" style="font-size:1rem; line-height:1.6;">
-  🚀 <strong>DevOps Engineer</strong> | ☁️ <strong>Cloud Practitioner</strong> | 🧠 <strong>Multi-Cloud & Streaming Systems Architect</strong><br>
+  🚀 <strong>DevOps Engineer</strong> | ☁️ <strong>FrontEnd & Backend Engineer</strong> | 🧠 <strong>Multi-Cloud & Streaming Systems Architect</strong><br>
   <em>Designing scalable, automated, and cloud-native systems across AWS, GCP, and Azure.</em>
 </p>
 
